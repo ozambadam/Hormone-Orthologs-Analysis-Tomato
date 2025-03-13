@@ -1,5 +1,5 @@
 # Hormone-Orthologs-Analysis-Tomato
-This repository contains the code and data files used for the analysis of orthologs related to hormones in tomato. The process includes integrating data from different species, identifying orthologous genes involved in auxin and brassinosteroid pathways, and generating output files with information 
+This repository contains the code (TomatoOrthologsPublic.R) and data files used for the analysis of orthologs related to hormones in tomato. The process includes integrating data from different species, identifying orthologous genes involved in auxin and brassinosteroid pathways, and generating output files with information 
 ## Project Description
 
 This project involves analyzing gene orthologs related to two plant hormones, **Brassinosteroids** and **Auxins**, in tomato. It involves two primary steps:
@@ -13,15 +13,14 @@ This project involves analyzing gene orthologs related to two plant hormones, **
 
 ## Files in this Repository
 
-- `Hormone-Ortholog-Analysis.R`: The main R script containing code for data processing, merging datasets, and analyzing hormone-specific orthologs.
+- `TomatoOrthologsPublic.R`: The main R script containing code for data processing, merging datasets, and analyzing hormone-specific orthologs.
 - `BrassinoMipedit.txt`: Input file containing data on Brassinosteroid-related genes in tomato.
 - `AuxinMipedit.txt`: Input file containing data on Auxin-related genes in tomato.
-- `BrassinoMipOrthoSpecies.txt`: Output file with orthologous gene data related to Brassinosteroids.
-- `AuxMiPOrthoSpecies.txt`: Output file with orthologous gene data related to Auxins.
-- `mip_net.txt`: Output network file for Brassinosteroids.
-- `AuxMip_net.txt`: Output network file for Auxins.
-- `duplicated_genesSpeciesBrassinoMip.txt`: File with duplicated genes related to Brassinosteroids across species.
-- `duplicated_genesSpeciesAuxMip.txt`: File with duplicated genes related to Auxins across species.
+- `MYCinteractorsEdit.txt`: Input file containing data on jasmonic Acid-related genes in tomato.
+- `orthologs_sinPunto.tsv`: Input file containing data tomato orthologs in other species.
+- `MYC2_net.txt.sif"`: Input file containing a gene coexpression network of MYC2.
+- `BrassinoMip.txt.sif"`: Input file containing a gene coexpression network of Brassinosteroid-related TF.
+- `AuxMip.txt.sif"`: Input file containing a gene coexpression network of Auxin-related TF.
 
 ## Key Steps
 
